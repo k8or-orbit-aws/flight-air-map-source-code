@@ -6,7 +6,7 @@ $globalInstalled = TRUE;
 $globalName = 'flightairmap';
 
 // GLOBAL URL
-$globalURL = '/FlightAirMap';
+$globalURL = '';
 
 // Logo URL
 $logoURL = '/images/k8or-logo.png';
@@ -60,10 +60,10 @@ $globalDistanceIgnore = array();
 
 // DATABASE CONNECTION LOGIN
 $globalDBdriver = 'mysql'; // PDO driver used. Tested with mysql, maybe pgsql or others work...
-$globalDBhost = 'localhost'; //database connection url
-$globalDBuser = 'root'; //database username
-$globalDBpass = ''; //database password
-$globalDBname = 'flightairmap'; //database name
+$globalDBhost = 'skymap-instance-1.cdeoekgau82j.us-east-1.rds.amazonaws.com'; //database connection url
+$globalDBuser = 'admin'; //database username
+$globalDBpass = 'FRThf45FDEuk'; //database password
+$globalDBname = 'skymap'; //database name
 $globalDBport = '3306'; //database port
 $globalTransaction = TRUE; //Activate database transaction support
 

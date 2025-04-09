@@ -3,9 +3,9 @@ services:
     flightairmap:
         image: richarvey/nginx-php-fpm
         volumes:
-            - "E:/xamp7/htdocs/flightairmap/install/docker/conf:/var/www/html/conf"
-            - "E:/xamp7/htdocs/flightairmap/install/docker/scripts:/var/www/html/scripts"
-            - "E:/xamp7/htdocs/flightairmap/:/var/www/flightairmap"
+            - "./conf:/var/www/html/conf"
+            - "./scripts:/var/www/html/scripts"
+            - "../../:/var/www/flightairmap"
         ports:
             - "8000:80"
             - "3000:443"
